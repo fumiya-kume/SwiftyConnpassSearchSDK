@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../../SwiftyConnpassSearchSDK"
+      name = "SwiftyConnpassSearchSDK">
+      <FileRef
+         location = "group:HelloWorld.swift">
+      </FileRef>
+      <FileRef
+         location = "group:SwiftyConnpassSearchSDK.h">
+      </FileRef>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:../../SwiftyConnpassSearchSDK"
+      name = "SwiftyConnpassSearchSDK">
+      <FileRef
+         location = "group:HelloWorld.swift">
+      </FileRef>
+      <FileRef
+         location = "group:SwiftyConnpassSearchSDK.h">
+      </FileRef>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+   </Group>
    <FileRef
-      location = "self:Demo.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE6EF1F021326B940079FD9E /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6EF1ED21326B940079FD9E /* HelloWorld.swift */; };
+		DE6EF1F121326B940079FD9E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE6EF1EF21326B940079FD9E /* Info.plist */; };
 		DEE24F8421324CCA00ACE01A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE24F8321324CCA00ACE01A /* AppDelegate.swift */; };
 		DEE24F8621324CCA00ACE01A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE24F8521324CCA00ACE01A /* ViewController.swift */; };
 		DEE24F8921324CCA00ACE01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE24F8721324CCA00ACE01A /* Main.storyboard */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE6EF1ED21326B940079FD9E /* HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		DE6EF1EE21326B940079FD9E /* SwiftyConnpassSearchSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyConnpassSearchSDK.h; sourceTree = "<group>"; };
+		DE6EF1EF21326B940079FD9E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEE24F8021324CCA00ACE01A /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE24F8321324CCA00ACE01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEE24F8521324CCA00ACE01A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		DEE24F9F21324CCB00ACE01A /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE24FA321324CCB00ACE01A /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
 		DEE24FA521324CCB00ACE01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE24FB2213265AA00ACE01A /* SwiftyConnpassSearchSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftyConnpassSearchSDK; path = ../SwiftyConnpassSearchSDK; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,13 +80,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE6EF1EC21326B940079FD9E /* SwiftyConnpassSearchSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DE6EF1ED21326B940079FD9E /* HelloWorld.swift */,
+				DE6EF1EE21326B940079FD9E /* SwiftyConnpassSearchSDK.h */,
+				DE6EF1EF21326B940079FD9E /* Info.plist */,
+			);
+			name = SwiftyConnpassSearchSDK;
+			path = ../SwiftyConnpassSearchSDK;
+			sourceTree = "<group>";
+		};
 		DEE24F7721324CCA00ACE01A = {
 			isa = PBXGroup;
 			children = (
+				DE6EF1EC21326B940079FD9E /* SwiftyConnpassSearchSDK */,
 				DEE24F8221324CCA00ACE01A /* Demo */,
 				DEE24F9721324CCB00ACE01A /* DemoTests */,
 				DEE24FA221324CCB00ACE01A /* DemoUITests */,
 				DEE24F8121324CCA00ACE01A /* Products */,
+				DEE24FB1213265A900ACE01A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +142,14 @@
 				DEE24FA521324CCB00ACE01A /* Info.plist */,
 			);
 			path = DemoUITests;
+			sourceTree = "<group>";
+		};
+		DEE24FB1213265A900ACE01A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEE24FB2213265AA00ACE01A /* SwiftyConnpassSearchSDK */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6EF1F121326B940079FD9E /* Info.plist in Resources */,
 				DEE24F8E21324CCB00ACE01A /* LaunchScreen.storyboard in Resources */,
 				DEE24F8B21324CCB00ACE01A /* Assets.xcassets in Resources */,
 				DEE24F8921324CCA00ACE01A /* Main.storyboard in Resources */,
@@ -257,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEE24F8621324CCA00ACE01A /* ViewController.swift in Sources */,
+				DE6EF1F021326B940079FD9E /* HelloWorld.swift in Sources */,
 				DEE24F8421324CCA00ACE01A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

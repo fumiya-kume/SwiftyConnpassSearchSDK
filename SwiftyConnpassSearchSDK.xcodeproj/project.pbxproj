@@ -10,6 +10,7 @@
 		DE503CDB21324C3A00991D7E /* SwiftyConnpassSearchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE503CD121324C3A00991D7E /* SwiftyConnpassSearchSDK.framework */; };
 		DE503CE021324C3A00991D7E /* SwiftyConnpassSearchSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE503CDF21324C3A00991D7E /* SwiftyConnpassSearchSDKTests.swift */; };
 		DE503CE221324C3A00991D7E /* SwiftyConnpassSearchSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DE503CD421324C3A00991D7E /* SwiftyConnpassSearchSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEE24FB5213267C800ACE01A /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE24FB4213267C800ACE01A /* HelloWorld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		DE503CDA21324C3A00991D7E /* SwiftyConnpassSearchSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyConnpassSearchSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE503CDF21324C3A00991D7E /* SwiftyConnpassSearchSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyConnpassSearchSDKTests.swift; sourceTree = "<group>"; };
 		DE503CE121324C3A00991D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE24FB4213267C800ACE01A /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				DE503CD421324C3A00991D7E /* SwiftyConnpassSearchSDK.h */,
 				DE503CD521324C3A00991D7E /* Info.plist */,
+				DEE24FB4213267C800ACE01A /* HelloWorld.swift */,
 			);
 			path = SwiftyConnpassSearchSDK;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					DE503CD021324C3A00991D7E = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					DE503CD921324C3A00991D7E = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE24FB5213267C800ACE01A /* HelloWorld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +344,7 @@
 		DE503CE621324C3A00991D7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -356,6 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kuxu.nagoya.SwiftyConnpassSearchSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +371,7 @@
 		DE503CE721324C3A00991D7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +397,7 @@
 		DE503CE921324C3A00991D7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5YS6ZB47G;
 				INFOPLIST_FILE = SwiftyConnpassSearchSDKTests/Info.plist;
@@ -407,6 +416,7 @@
 		DE503CEA21324C3A00991D7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5YS6ZB47G;
 				INFOPLIST_FILE = SwiftyConnpassSearchSDKTests/Info.plist;
