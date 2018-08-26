@@ -28,11 +28,13 @@ This Repository contan Demo Project.
 ## Sample Code
 
 ``` Swift
-self.connpassSearch.Search(keyword: "Ruby"){ response in
+       self.connpassSearch.Search(keyword: "Ruby"){ response in
             if let events = (response.Data?.events){
                 self.events = events
             }
             
-            // Any Code
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
         }
 ```
