@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9905001C21336A5F008A6423 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9905001B21336A5E008A6423 /* MainCell.swift */; };
 		DED744D221328137008F6B27 /* ConnpassSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED744CC21328136008F6B27 /* ConnpassSearch.swift */; };
 		DED744D321328137008F6B27 /* ConnpassSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED744CE21328136008F6B27 /* ConnpassSearchResult.swift */; };
 		DED744D421328137008F6B27 /* ConnpassSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED744CF21328136008F6B27 /* ConnpassSearchResponse.swift */; };
 		DED744D521328137008F6B27 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DED744D121328136008F6B27 /* Info.plist */; };
-		DED744D921328CA0008F6B27 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED744D821328CA0008F6B27 /* MainCell.swift */; };
 		DEE24F8421324CCA00ACE01A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE24F8321324CCA00ACE01A /* AppDelegate.swift */; };
 		DEE24F8621324CCA00ACE01A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE24F8521324CCA00ACE01A /* ViewController.swift */; };
 		DEE24F8921324CCA00ACE01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE24F8721324CCA00ACE01A /* Main.storyboard */; };
@@ -39,12 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9905001B21336A5E008A6423 /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
 		DED744CC21328136008F6B27 /* ConnpassSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnpassSearch.swift; sourceTree = "<group>"; };
 		DED744CE21328136008F6B27 /* ConnpassSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnpassSearchResult.swift; sourceTree = "<group>"; };
 		DED744CF21328136008F6B27 /* ConnpassSearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnpassSearchResponse.swift; sourceTree = "<group>"; };
 		DED744D021328136008F6B27 /* SwiftyConnpassSearchSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyConnpassSearchSDK.h; sourceTree = "<group>"; };
 		DED744D121328136008F6B27 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DED744D821328CA0008F6B27 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainCell.swift; path = /Users/kuxu/work/SwiftyConnpassSearchSDK/Demo/Demo/MainCell.swift; sourceTree = "<absolute>"; };
 		DEE24F8021324CCA00ACE01A /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE24F8321324CCA00ACE01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEE24F8521324CCA00ACE01A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		DEE24F8221324CCA00ACE01A /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				DED744D821328CA0008F6B27 /* MainCell.swift */,
+				9905001B21336A5E008A6423 /* MainCell.swift */,
 				DEE24F8321324CCA00ACE01A /* AppDelegate.swift */,
 				DEE24F8521324CCA00ACE01A /* ViewController.swift */,
 				DEE24F8721324CCA00ACE01A /* Main.storyboard */,
@@ -302,8 +302,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEE24F8621324CCA00ACE01A /* ViewController.swift in Sources */,
+				9905001C21336A5F008A6423 /* MainCell.swift in Sources */,
 				DED744D421328137008F6B27 /* ConnpassSearchResponse.swift in Sources */,
-				DED744D921328CA0008F6B27 /* MainCell.swift in Sources */,
 				DED744D221328137008F6B27 /* ConnpassSearch.swift in Sources */,
 				DEE24F8421324CCA00ACE01A /* AppDelegate.swift in Sources */,
 				DED744D321328137008F6B27 /* ConnpassSearchResult.swift in Sources */,
