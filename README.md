@@ -11,7 +11,7 @@ You can install from Carthage
 Add This to **Cartfile**
 
 ```
-githun fumiya-kume/SwiftyConnpassSearchSDK ~> 0.0.1
+github fumiya-kume/SwiftyConnpassSearchSDK ~> 0.0.1
 ```
 
 ```
