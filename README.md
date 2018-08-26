@@ -13,3 +13,26 @@ Add This to **Cartfile**
 ```
 githun fumiya-kume/SwiftyConnpassSearchSDK ~> 0.0.1
 ```
+
+```
+$ carthage update
+```
+
+## Demo
+
+This Repository contan Demo Project.
+
+
+# Construction
+
+## Sample Code
+
+``` Swift
+self.connpassSearch.Search(keyword: "Ruby"){ response in
+            if let events = (response.Data?.events){
+                self.events = events
+            }
+            
+            // Any Code
+        }
+```
