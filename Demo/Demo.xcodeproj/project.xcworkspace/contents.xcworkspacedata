@@ -5,21 +5,21 @@
       location = "group:../../SwiftyConnpassSearchSDK"
       name = "SwiftyConnpassSearchSDK">
       <FileRef
-         location = "group:HelloWorld.swift">
+         location = "group:/Users/kuxu/work/SwiftyConnpassSearchSDK/Demo/Demo/MainCell.swift">
       </FileRef>
       <FileRef
-         location = "group:SwiftyConnpassSearchSDK.h">
+         location = "group:ConnpassSearch.swift">
       </FileRef>
-      <FileRef
-         location = "group:Info.plist">
-      </FileRef>
-   </Group>
-   <Group
-      location = "group:../../SwiftyConnpassSearchSDK"
-      name = "SwiftyConnpassSearchSDK">
-      <FileRef
-         location = "group:HelloWorld.swift">
-      </FileRef>
+      <Group
+         location = "group:Model"
+         name = "Model">
+         <FileRef
+            location = "group:ConnpassSearchResult.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ConnpassSearchResponse.swift">
+         </FileRef>
+      </Group>
       <FileRef
          location = "group:SwiftyConnpassSearchSDK.h">
       </FileRef>

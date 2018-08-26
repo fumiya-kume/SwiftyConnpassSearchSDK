@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE6EF1F021326B940079FD9E /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6EF1ED21326B940079FD9E /* HelloWorld.swift */; };
-		DE6EF1F121326B940079FD9E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE6EF1EF21326B940079FD9E /* Info.plist */; };
+		DED744D221328137008F6B27 /* ConnpassSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED744CC21328136008F6B27 /* ConnpassSearch.swift */; };
+		DED744D321328137008F6B27 /* ConnpassSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED744CE21328136008F6B27 /* ConnpassSearchResult.swift */; };
+		DED744D421328137008F6B27 /* ConnpassSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED744CF21328136008F6B27 /* ConnpassSearchResponse.swift */; };
+		DED744D521328137008F6B27 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DED744D121328136008F6B27 /* Info.plist */; };
+		DED744D921328CA0008F6B27 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED744D821328CA0008F6B27 /* MainCell.swift */; };
 		DEE24F8421324CCA00ACE01A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE24F8321324CCA00ACE01A /* AppDelegate.swift */; };
 		DEE24F8621324CCA00ACE01A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE24F8521324CCA00ACE01A /* ViewController.swift */; };
 		DEE24F8921324CCA00ACE01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE24F8721324CCA00ACE01A /* Main.storyboard */; };
@@ -36,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DE6EF1ED21326B940079FD9E /* HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
-		DE6EF1EE21326B940079FD9E /* SwiftyConnpassSearchSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyConnpassSearchSDK.h; sourceTree = "<group>"; };
-		DE6EF1EF21326B940079FD9E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED744CC21328136008F6B27 /* ConnpassSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnpassSearch.swift; sourceTree = "<group>"; };
+		DED744CE21328136008F6B27 /* ConnpassSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnpassSearchResult.swift; sourceTree = "<group>"; };
+		DED744CF21328136008F6B27 /* ConnpassSearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnpassSearchResponse.swift; sourceTree = "<group>"; };
+		DED744D021328136008F6B27 /* SwiftyConnpassSearchSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyConnpassSearchSDK.h; sourceTree = "<group>"; };
+		DED744D121328136008F6B27 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED744D821328CA0008F6B27 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainCell.swift; path = /Users/kuxu/work/SwiftyConnpassSearchSDK/Demo/Demo/MainCell.swift; sourceTree = "<absolute>"; };
 		DEE24F8021324CCA00ACE01A /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE24F8321324CCA00ACE01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEE24F8521324CCA00ACE01A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,21 +86,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE6EF1EC21326B940079FD9E /* SwiftyConnpassSearchSDK */ = {
+		DED744CB21328136008F6B27 /* SwiftyConnpassSearchSDK */ = {
 			isa = PBXGroup;
 			children = (
-				DE6EF1ED21326B940079FD9E /* HelloWorld.swift */,
-				DE6EF1EE21326B940079FD9E /* SwiftyConnpassSearchSDK.h */,
-				DE6EF1EF21326B940079FD9E /* Info.plist */,
+				DED744CC21328136008F6B27 /* ConnpassSearch.swift */,
+				DED744CD21328136008F6B27 /* Model */,
+				DED744D021328136008F6B27 /* SwiftyConnpassSearchSDK.h */,
+				DED744D121328136008F6B27 /* Info.plist */,
 			);
 			name = SwiftyConnpassSearchSDK;
 			path = ../SwiftyConnpassSearchSDK;
 			sourceTree = "<group>";
 		};
+		DED744CD21328136008F6B27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DED744CE21328136008F6B27 /* ConnpassSearchResult.swift */,
+				DED744CF21328136008F6B27 /* ConnpassSearchResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DEE24F7721324CCA00ACE01A = {
 			isa = PBXGroup;
 			children = (
-				DE6EF1EC21326B940079FD9E /* SwiftyConnpassSearchSDK */,
+				DED744CB21328136008F6B27 /* SwiftyConnpassSearchSDK */,
 				DEE24F8221324CCA00ACE01A /* Demo */,
 				DEE24F9721324CCB00ACE01A /* DemoTests */,
 				DEE24FA221324CCB00ACE01A /* DemoUITests */,
@@ -116,6 +132,7 @@
 		DEE24F8221324CCA00ACE01A /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				DED744D821328CA0008F6B27 /* MainCell.swift */,
 				DEE24F8321324CCA00ACE01A /* AppDelegate.swift */,
 				DEE24F8521324CCA00ACE01A /* ViewController.swift */,
 				DEE24F8721324CCA00ACE01A /* Main.storyboard */,
@@ -256,7 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE6EF1F121326B940079FD9E /* Info.plist in Resources */,
+				DED744D521328137008F6B27 /* Info.plist in Resources */,
 				DEE24F8E21324CCB00ACE01A /* LaunchScreen.storyboard in Resources */,
 				DEE24F8B21324CCB00ACE01A /* Assets.xcassets in Resources */,
 				DEE24F8921324CCA00ACE01A /* Main.storyboard in Resources */,
@@ -285,8 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEE24F8621324CCA00ACE01A /* ViewController.swift in Sources */,
-				DE6EF1F021326B940079FD9E /* HelloWorld.swift in Sources */,
+				DED744D421328137008F6B27 /* ConnpassSearchResponse.swift in Sources */,
+				DED744D921328CA0008F6B27 /* MainCell.swift in Sources */,
+				DED744D221328137008F6B27 /* ConnpassSearch.swift in Sources */,
 				DEE24F8421324CCA00ACE01A /* AppDelegate.swift in Sources */,
+				DED744D321328137008F6B27 /* ConnpassSearchResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
