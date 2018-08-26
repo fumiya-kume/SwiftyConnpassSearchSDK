@@ -1,5 +1,5 @@
 //
-//  ConnpassSearchResult.swift
+//  ConnpassSearch.swift
 //  SwiftyConnpassSearchSDKTests
 //
 //  Created by 久米史也 on 2018/08/26.
@@ -7,15 +7,11 @@
 //
 
 import XCTest
-import SwiftyConnpassSearchSDK
 
-class ConnpassSearchResultTest: XCTestCase {
-    
+class ConnpassSearch: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        
-        
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
@@ -34,13 +30,6 @@ class ConnpassSearchResultTest: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
-    }
-    
-    func HasTitleProperty() {
-        let dummyTitle = "Title"
-        connpassSearchResult.Title = dummyTitle
-        XCTAssertNotNil(connpassSearchResult.Title)
-        XCTAssertEqual(connpassSearchResult.Title, dummyTitle)
     }
     
 }
