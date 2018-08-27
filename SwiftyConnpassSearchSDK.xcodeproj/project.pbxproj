@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE06AE3C21343C9500D14B39 /* ConnpassSearchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06AE3B21343C9500D14B39 /* ConnpassSearchTest.swift */; };
 		DE503CDB21324C3A00991D7E /* SwiftyConnpassSearchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE503CD121324C3A00991D7E /* SwiftyConnpassSearchSDK.framework */; };
 		DE503CE021324C3A00991D7E /* SwiftyConnpassSearchSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE503CDF21324C3A00991D7E /* SwiftyConnpassSearchSDKTests.swift */; };
 		DE503CE221324C3A00991D7E /* SwiftyConnpassSearchSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DE503CD421324C3A00991D7E /* SwiftyConnpassSearchSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DED744C6213272E6008F6B27 /* ConnpassSearchResultTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED744C5213272E6008F6B27 /* ConnpassSearchResultTest.swift */; };
 		DED744C8213272F6008F6B27 /* ConnpassSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED744C7213272F6008F6B27 /* ConnpassSearchResponse.swift */; };
 		DED744CA21327A81008F6B27 /* ConnpassSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED744C921327A81008F6B27 /* ConnpassSearchResult.swift */; };
 		DEE24FB5213267C800ACE01A /* ConnpassSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE24FB4213267C800ACE01A /* ConnpassSearch.swift */; };
@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE06AE3B21343C9500D14B39 /* ConnpassSearchTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnpassSearchTest.swift; sourceTree = "<group>"; };
 		DE503CD121324C3A00991D7E /* SwiftyConnpassSearchSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyConnpassSearchSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE503CD421324C3A00991D7E /* SwiftyConnpassSearchSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyConnpassSearchSDK.h; sourceTree = "<group>"; };
 		DE503CD521324C3A00991D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE503CDA21324C3A00991D7E /* SwiftyConnpassSearchSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyConnpassSearchSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE503CDF21324C3A00991D7E /* SwiftyConnpassSearchSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyConnpassSearchSDKTests.swift; sourceTree = "<group>"; };
 		DE503CE121324C3A00991D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DED744C5213272E6008F6B27 /* ConnpassSearchResultTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassSearchResultTest.swift; sourceTree = "<group>"; };
 		DED744C7213272F6008F6B27 /* ConnpassSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassSearchResponse.swift; sourceTree = "<group>"; };
 		DED744C921327A81008F6B27 /* ConnpassSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassSearchResult.swift; sourceTree = "<group>"; };
 		DEE24FB4213267C800ACE01A /* ConnpassSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassSearch.swift; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		DE503CDE21324C3A00991D7E /* SwiftyConnpassSearchSDKTests */ = {
 			isa = PBXGroup;
 			children = (
-				DED744C4213272AB008F6B27 /* Model */,
+				DE06AE3B21343C9500D14B39 /* ConnpassSearchTest.swift */,
 				DE503CDF21324C3A00991D7E /* SwiftyConnpassSearchSDKTests.swift */,
 				DE503CE121324C3A00991D7E /* Info.plist */,
 			);
@@ -102,14 +102,6 @@
 			children = (
 				DED744C7213272F6008F6B27 /* ConnpassSearchResponse.swift */,
 				DED744C921327A81008F6B27 /* ConnpassSearchResult.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		DED744C4213272AB008F6B27 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				DED744C5213272E6008F6B27 /* ConnpassSearchResultTest.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -233,8 +225,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE06AE3C21343C9500D14B39 /* ConnpassSearchTest.swift in Sources */,
 				DE503CE021324C3A00991D7E /* SwiftyConnpassSearchSDKTests.swift in Sources */,
-				DED744C6213272E6008F6B27 /* ConnpassSearchResultTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
