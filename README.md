@@ -28,7 +28,11 @@ This Repository contan Demo Project.
 ## Sample Code
 
 ``` Swift
-       self.connpassSearch.Search(keyword: "Ruby"){ response in
+       let searchOption = ConnpassSearchOption()
+        searchOption.keyword = ["Ruby"]
+        searchOption.count = 30
+        
+        self.connpassSearch.Search(searchOption: searchOption){ response in
             if let events = (response.Data?.events){
                 self.events = events
             }
