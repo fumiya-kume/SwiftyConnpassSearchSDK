@@ -10,34 +10,46 @@ import Foundation
 
 public struct ConnpassSearchResponse: Decodable {
     let resultsReturned: Int?
+    let resultsAvailable: Int?
+    let resultsStart: Int?
     let events: [Event]?
-    let resultsStart, resultsAvailable: Int?
+    
 }
 
 struct Event: Decodable {
-    let event_url: String?
-    let eventType: EventType?
-    let ownerNickname: String?
-    let series: Series?
-    let updatedAt: Date?
-    let lat: String?
+    let eventId: Int?
+    let title: String?
+    let `catch`: String?
+    let description: String?
+    let eventUrl: String?
+    let hashTag: String?
     let startedAt: Date?
-    let hashTag, title: String?
-    let eventID: Int?
-    let lon: String?
-    let waiting: Int?
-    let limit: Int?
-    let ownerID: Int?
-    let ownerDisplayName, description: String?
-    let address: String?
-    let eventCatch: String?
-    let accepted: Int?
     let endedAt: Date?
-    let place: String?
+    let limit: Int?
+    let eventType: EventType?
+    let address: String?
+    //    let event_url: String?
+    //    let ownerNickname: String?
+    //    let series: Series?
+    //    let updatedAt: Date?
+    //    let lat: String?
+    //    let startedAt: Date?
+    //    let hashTag, title: String?
+    //    let lon: String?
+    //    let waiting: Int?
+    //    let limit: Int?
+    //    let ownerID: Int?
+    //    let ownerDisplayName, description: String?
+    //    let address: String?
+    //    let eventCatch: String?
+    //    let accepted: Int?
+    //    let endedAt: Date?
+    //    let place: String?
 }
 
 enum EventType:String, Codable {
     case participation
+    case advertisement
 }
 
 struct Series: Decodable {

@@ -22,12 +22,12 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MainCell") as! MainCell
         cell.TitleLabel.text = events[indexPath.row].title
-        cell.EventNumber.text = String(indexPath.row)
+        cell.EventNumber.text = String(indexPath.row + 1)
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let targetUrl = events[indexPath.row].event_url, let url = URL(string: targetUrl) {
+        if let targetUrl = events[indexPath.row].eventUrl, let url = URL(string: targetUrl) {
             let viewController = SFSafariViewController(url: url)
             self.present(viewController, animated: true, completion: nil)
         }
@@ -35,7 +35,11 @@ class ViewController: UITableViewController {
     
     override func viewDidLoad() {
         
-        self.connpassSearch.Search(keyword: "Ruby"){ response in
+        let searchOption = ConnpassSearchOption()
+        searchOption.keyword = ["Ruby"]
+        searchOption.count = 30
+        
+        self.connpassSearch.Search(searchOption: searchOption){ response in
             if let events = (response.Data?.events){
                 self.events = events
             }

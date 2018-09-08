@@ -26,8 +26,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4RW-SA-wiA">
-                                            <rect key="frame" x="166" y="11.5" width="42" height="20"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4RW-SA-wiA">
+                                            <rect key="frame" x="77" y="12" width="272" height="20"/>
                                             <attributedString key="attributedText">
                                                 <fragment content="Label">
                                                     <attributes>
@@ -37,7 +37,7 @@
                                             </attributedString>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBj-UH-F88">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBj-UH-F88">
                                             <rect key="frame" x="10" y="10" width="42" height="24"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -45,11 +45,11 @@
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="4RW-SA-wiA" firstAttribute="centerY" secondItem="aZa-59-b2R" secondAttribute="centerY" id="6YP-QM-eIg"/>
                                         <constraint firstItem="OBj-UH-F88" firstAttribute="top" secondItem="aZa-59-b2R" secondAttribute="top" constant="10" id="Dm9-UR-QM2"/>
+                                        <constraint firstItem="4RW-SA-wiA" firstAttribute="centerY" secondItem="OBj-UH-F88" secondAttribute="centerY" id="EdU-aM-Ol8"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="4RW-SA-wiA" secondAttribute="trailing" constant="10" id="UI6-0P-6J1"/>
                                         <constraint firstAttribute="bottom" secondItem="OBj-UH-F88" secondAttribute="bottom" constant="10" id="gtr-QJ-hU2"/>
-                                        <constraint firstItem="4RW-SA-wiA" firstAttribute="leading" secondItem="OBj-UH-F88" secondAttribute="trailing" constant="10" id="vbq-oI-lF3"/>
+                                        <constraint firstItem="4RW-SA-wiA" firstAttribute="leading" secondItem="OBj-UH-F88" secondAttribute="trailing" constant="25" id="vbq-oI-lF3"/>
                                         <constraint firstItem="OBj-UH-F88" firstAttribute="leading" secondItem="aZa-59-b2R" secondAttribute="leading" constant="10" id="vcc-sl-EtQ"/>
                                     </constraints>
                                 </tableViewCellContentView>

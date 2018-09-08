@@ -11,6 +11,8 @@
 		DE503CDB21324C3A00991D7E /* SwiftyConnpassSearchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE503CD121324C3A00991D7E /* SwiftyConnpassSearchSDK.framework */; };
 		DE503CE021324C3A00991D7E /* SwiftyConnpassSearchSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE503CDF21324C3A00991D7E /* SwiftyConnpassSearchSDKTests.swift */; };
 		DE503CE221324C3A00991D7E /* SwiftyConnpassSearchSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DE503CD421324C3A00991D7E /* SwiftyConnpassSearchSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE56D9F9213EAEF100BD6C08 /* ConnpassSearchOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE56D9F8213EAEF100BD6C08 /* ConnpassSearchOption.swift */; };
+		DE56D9FB213EB1A000BD6C08 /* ConnpassSearchOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE56D9FA213EB1A000BD6C08 /* ConnpassSearchOption.swift */; };
 		DED744C8213272F6008F6B27 /* ConnpassSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED744C7213272F6008F6B27 /* ConnpassSearchResponse.swift */; };
 		DED744CA21327A81008F6B27 /* ConnpassSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED744C921327A81008F6B27 /* ConnpassSearchResult.swift */; };
 		DEE24FB5213267C800ACE01A /* ConnpassSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE24FB4213267C800ACE01A /* ConnpassSearch.swift */; };
@@ -34,6 +36,8 @@
 		DE503CDA21324C3A00991D7E /* SwiftyConnpassSearchSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyConnpassSearchSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE503CDF21324C3A00991D7E /* SwiftyConnpassSearchSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyConnpassSearchSDKTests.swift; sourceTree = "<group>"; };
 		DE503CE121324C3A00991D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE56D9F8213EAEF100BD6C08 /* ConnpassSearchOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassSearchOption.swift; sourceTree = "<group>"; };
+		DE56D9FA213EB1A000BD6C08 /* ConnpassSearchOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassSearchOption.swift; sourceTree = "<group>"; };
 		DED744C7213272F6008F6B27 /* ConnpassSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassSearchResponse.swift; sourceTree = "<group>"; };
 		DED744C921327A81008F6B27 /* ConnpassSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassSearchResult.swift; sourceTree = "<group>"; };
 		DEE24FB4213267C800ACE01A /* ConnpassSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassSearch.swift; sourceTree = "<group>"; };
@@ -81,8 +85,9 @@
 			children = (
 				DED744C32132729E008F6B27 /* Model */,
 				DE503CD421324C3A00991D7E /* SwiftyConnpassSearchSDK.h */,
-				DE503CD521324C3A00991D7E /* Info.plist */,
 				DEE24FB4213267C800ACE01A /* ConnpassSearch.swift */,
+				DE503CD521324C3A00991D7E /* Info.plist */,
+				DE56D9F8213EAEF100BD6C08 /* ConnpassSearchOption.swift */,
 			);
 			path = SwiftyConnpassSearchSDK;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 				DE06AE3B21343C9500D14B39 /* ConnpassSearchTest.swift */,
 				DE503CDF21324C3A00991D7E /* SwiftyConnpassSearchSDKTests.swift */,
 				DE503CE121324C3A00991D7E /* Info.plist */,
+				DE56D9FA213EB1A000BD6C08 /* ConnpassSearchOption.swift */,
 			);
 			path = SwiftyConnpassSearchSDKTests;
 			sourceTree = "<group>";
@@ -216,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEE24FB5213267C800ACE01A /* ConnpassSearch.swift in Sources */,
+				DE56D9F9213EAEF100BD6C08 /* ConnpassSearchOption.swift in Sources */,
 				DED744CA21327A81008F6B27 /* ConnpassSearchResult.swift in Sources */,
 				DED744C8213272F6008F6B27 /* ConnpassSearchResponse.swift in Sources */,
 			);
@@ -225,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE56D9FB213EB1A000BD6C08 /* ConnpassSearchOption.swift in Sources */,
 				DE06AE3C21343C9500D14B39 /* ConnpassSearchTest.swift in Sources */,
 				DE503CE021324C3A00991D7E /* SwiftyConnpassSearchSDKTests.swift in Sources */,
 			);
